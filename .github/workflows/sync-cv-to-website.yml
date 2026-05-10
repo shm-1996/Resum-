@@ -1,0 +1,42 @@
+name: Sync CV to website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out CV repo
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX to PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: CVtex.tex
+          latexmk_use_xelatex: true
+
+      - name: Check out website repo
+        uses: actions/checkout@v4
+        with:
+          repository: shm-1996/shm-1996.github.io
+          token: ${{ secrets.WEBSITE_REPO_TOKEN }}
+          path: website
+
+      - name: Copy PDF into website assets
+        run: cp CVtex.pdf website/assets/docs/Resume.pdf
+
+      - name: Commit and push if changed
+        working-directory: website
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/docs/Resume.pdf
+          if git diff --cached --quiet; then
+            echo "Already up to date."
+          else
+            git commit -m "chore: sync Resume.pdf from Resum- repo"
+            git push
+          fi
