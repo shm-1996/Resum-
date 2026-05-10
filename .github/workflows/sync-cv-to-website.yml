@@ -15,7 +15,7 @@ jobs:
       - name: Compile LaTeX to PDF
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: CVtex.tex
+          root_file: CV_Tex/CVtex.tex
           latexmk_use_xelatex: true
 
       - name: Check out website repo
@@ -26,7 +26,7 @@ jobs:
           path: website
 
       - name: Copy PDF into website assets
-        run: cp CVtex.pdf website/assets/docs/Resume.pdf
+        run: cp CV_Tex/CVtex.pdf website/assets/docs/Resume.pdf
 
       - name: Commit and push if changed
         working-directory: website
