@@ -9,6 +9,7 @@
 \usepackage[top=1in,bottom=1in,scale=0.75,a4paper]{geometry}
 \usepackage{babel}
 \usepackage[bottom]{footmisc}
+\usepackage{eurosym}
 \definecolor{blue1}{RGB}{56,115,178}
 %\renewcommand*{\orcidsocialsymbol}{{\aiSkype~}}
 %----------------------------------------------------------------------------------
@@ -22,7 +23,7 @@
 \email{smenon@flatironinstitute.org}                               % optional, remove/comment the line if not wanted
 \social[github]{shm-1996}
 \social[orcid]{0000-0001-5944-291X}
-\homepage{https://shm-1996.github.io}                         % optional, remove/comment the line if not wanted
+\homepage{shm-1996.github.io}                         % optional, remove/comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove/comment the line if not wanted
 % \photo[80pt][0pt]{Suit}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Final year Masters student in the Department of Chemistry, Indian Institute of Technology (BHU), Varanasi}                                 % optional, remove/comment the line if not wanted
@@ -36,17 +37,14 @@ urlcolor=blue}
 \makecvtitle
 \vspace{-10mm}
 %\hline
-\section{Employment}
-\cventry{Sep. 2023 -- Present}{Flatiron Research Fellow (Joint Rutgers-Flatiron Postdoctoral Fellow)}{}{\newline Center for Computational Astrophysics (CCA), Flatiron Institute, NY, USA}{}{}
-\cventry{Sep. 2023 -- Present}{Postdoctoral Researcher (Joint Rutgers-Flatiron Postdoctoral Fellow)}{}{\newline Dept. of Physics and Astronomy, Rutgers University, NJ, USA}{}{}
-$$\\$$
+\section{Professional Experience}
+% \cventry{Sep 2023 -- present}{Joint Rutgers-Flatiron Postdoctoral Fellow}{}{\newline Center for Computational Astrophysics (CCA), Flatiron Institute, NY, USA \& Dept.\ of Physics and Astronomy, Rutgers University, NJ, USA}{}{}
+\cventry{Sep 2025 -- present}{Flatiron Research Fellow (Joint Rutgers--Flatiron Fellow)}{}{\newline Center for Computational Astrophysics (CCA), Flatiron Institute, NY, USA}{}{}
+\cventry{Sep 2023 -- Aug 2025}{Postdoctoral Fellow (Joint Rutgers--Flatiron Fellow)}{}{\newline Dept.\ of Physics and Astronomy, Rutgers University, NJ, USA}{}{}
 
-\section{Education \& Research Experience}
-\cventry{Oct. 2019 -- Sep 2023}{Doctor of Philosophy}{Astronomy \& Astrophysics}{\newline Research School of Astronomy \& Astrophysics, Australian National University}{\newline Canberra, Australia}{Thesis title: \href{http://hdl.handle.net/1885/299505}{The interplay of star formation and radiation feedback in the ISM} \newline \textit{Awarded the \href{https://asa.astronomy.org.au/prizes_and-grants/prizes-awards/charlene-heisler-prize/}{Charlene Heisler Prize} by the Astronomical Society of Australia} \newline Advisors: A/Prof.~Christoph Federrath \& Prof.~Mark Krumholz}
-\cventry{Aug. 2014 -- May 2019}{Integrated Bachelor and Master of Technology (Hons.)}{Engineering Physics}{\newline Department of Physics, Indian Institute of Technology (IIT)}{\newline Varanasi, India}{Thesis title: \href{https://www.dropbox.com/sh/afarzv6v6pvqyes/AACdRiKa9tuUTN-Z_GbyU1Qfa?dl=0}{HI Fragmentation in the Turbulent Interstellar Medium} \newline Advisor: A/Prof.~Prasun Dutta}
-\cventry{May 2018 -- August 2019}{Summer Research Scholar}{}{\newline University of T\"{u}bingen}{\newline T\"{u}bingen, Germany}{Project title: \href{https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.4643M/abstract}{Impact of ionising radiation on the turbulent ISM} \newline Advisor: Dr.~Rolf Kuiper}
-\cventry{May 2017 -- August 2017}{MITACS Globalink Summer Internship}{}{\newline University of Western Ontario}{\newline London, Canada}{Project title: Numerical Magneto-hydrodynamic simulations with the Athena code \newline Advisor: Prof.~Shantanu Basu}
-$$\\$$
+\section{Education}
+\cventry{Oct 2019 -- Sep 2023}{Doctor of Philosophy}{Astronomy \& Astrophysics}{\newline Research School of Astronomy \& Astrophysics, Australian National University}{Canberra, Australia}{Thesis: \href{http://hdl.handle.net/1885/299505}{The interplay of star formation and radiation feedback in the ISM}. \newline \textit{Awarded the \href{https://asa.astronomy.org.au/prizes_and-grants/prizes-awards/charlene-heisler-prize/}{Charlene Heisler Prize}}. \newline Advisors: Prof.~C.~Federrath \& Prof.~M.~Krumholz}
+\cventry{Aug 2014 -- June 2019}{Integrated Bachelor and Master of Technology (Hons.)}{Engineering Physics}{\newline Indian Institute of Technology (BHU)}{Varanasi, India}{Thesis: \href{https://www.dropbox.com/sh/afarzv6v6pvqyes/AACdRiKa9tuUTN-Z_GbyU1Qfa?dl=0}{HI Fragmentation in the Turbulent Interstellar Medium}.\newline Advisor: A/Prof.~P.~Dutta}
 
 % \section{Research Projects}
 % \cventry{August 2020 -- present}{Impact of Radiation Feedback on Star Cluster Formation}{}{\newline Primary Collaborators:A/Prof.~Christoph Federrath \& Prof.~Mark Krumholz }{}{$\bullet$ Developed \texttt{VETTAM}\footnotemark, a novel radiation-hydrodynamics module with Adaptive-Mesh Refinement in the \texttt{FLASH} code, to study the effects of radiation on star cluster formation. [Publication \#~\ref{pubvet}] \\ $\bullet$ Using \texttt{VETTAM}, we tested the role of radiation pressure from dust-reprocessed infrared photons on regulating star formation and driving winds in super-star cluster environments. [Publication \#~\ref{pubIR}]  \\ $\bullet$
@@ -58,34 +56,46 @@ $$\\$$
 % \cventry{September 2020 -- Present}{The Spatial Distribution of Star Clusters in External Galaxies}{}{\newline Primary Collaborators: Dr.~Kathryn Grasha, Prof.~Bruce G.~Elmegreen, Prof.~Daniela Calzetti, Dr.~Angela Adamo}{}{$\bullet$ Investigated the fractal distribution of young star clusters in 12 local galaxies with the LEGUS survey. [Publication \#~\ref{publegus}] \\ $\bullet$ Currently extending work to probe the star cluster distributions in local high-redshift analogue galaxies with the HiPEEC survey, and a larger sample of local galaxies with the PHANGS survey.}
 
 \section{Honors \& Grants}
-\cventry{July 2024}{\normalfont Charlene Heisler Prize}{\newline Awarded by the Astronomical Society of Australia for the most outstanding PhD thesis accepted by an Australian university}{}{}{}
-\cventry{Feb 2023}{\normalfont Joint 4-year Rutgers-Flatiron Postdoctoral Fellowship }{}{}{}{}
-\cventry{Feb 2023}{\normalfont CCAPP Postdoctoral Fellowship (declined)}{}{}{}{}
-\cventry{Feb 2023}{\normalfont CITA National Fellowship (declined)}{}{}{}{}
-\cventry{Oct 2021}{\normalfont ANU Olin J Eggen Research Award (\$2500 AUD)}{\newline Awarded to a PhD student for excellence in research}{}{}{}
-\cventry{Oct 2022}{\normalfont Vice-Chancellors Travel Grant (\$1500 AUD)}{}{}{}{}
-\cventry{March 2022}{\normalfont RSAA Travel Grant (\$7000 AUD)}{}{}{}{}
-\cventry{Oct 2019}{\normalfont ANU International PhD Scholarship (\$29000 AUD p.a.)}{}{}{}{}
-\cventry{Oct 2019}{\normalfont ANU RSAA Supplementary Research Scholarship (\$ 2500 AUD p.a.)}{}{}{}{}
-\cventry{August 2018}{\normalfont Graduate Aptitude Test in Engineering (GATE) Postgraduate Scholarship}{}{}{}{}
-\cventry{May 2018}{\normalfont Eberhard Karls Universit\"{a}t T\"{u}bingen Summer Research Stipend}{}{}{}{}
-\cventry{May 2017}{\normalfont Mitacs Globalink Research Internship Award}{}{}{}{}
-\cventry{April 2013}{\normalfont Kishore Vaigyanik Protsahan Yojana (KVPY) Scholarship}{}{}{}{}
+\cventry{July 2024}{Charlene Heisler Prize}{\newline Awarded by the Astronomical Society of Australia for the most outstanding PhD thesis accepted by an Australian university}{}{}{}
+\cventry{Feb 2023}{Joint 4-year Rutgers-Flatiron Postdoctoral Fellowship ($\sim$\$400,000 {})}{}{}{}{}
+\cventry{Feb 2023}{CCAPP Postdoctoral Fellowship (declined)}{}{}{}{}
+\cventry{Feb 2023}{CITA National Fellowship (declined)}{}{}{}{}
+\cventry{March 2022}{RSAA Travel Grant ($\sim$\$6000{})}{}{}{}{}
+\cventry{Oct 2021}{ANU Olin J Eggen Research Award ($\sim$\$2000{})}{\newline Awarded to a PhD student for excellence in research}{}{}{}
+\cventry{Oct 2019}{ANU International PhD Scholarship ($\sim$\$80,000{})}{}{}{}{}
+\cventry{Oct 2019}{ANU RSAA Supplementary Research Scholarship ($\sim$\$7000{})}{}{}{}{}
+\cventry{May 2017}{Mitacs Globalink Research Internship Award ($\sim$\$5000{})}{}{}{}{}
+\cventry{April 2013}{Kishore Vaigyanik Protsahan Yojana (KVPY) Scholarship}{}{}{}{}
+
+\newpage
+\section{Leadership and Scientific Service}
+
+\cventry{2026-2028}{Leader: International Space Science Institute (ISSI) International Team}{\newline Leading the competitively-selected ISSI International Team \#26-690 focused on multiscale modeling of dust in the interstellar medium of galaxies in the early Universe ($z\gtrsim 6$).}{}{}{}
+\cventry{Feb 2027}{Lead Organiser, Scientific Workshop on "The Lifecycle of Dense Star Clusters"}{\newline Lead organiser of a focused workshop consisting of $\sim$50 international experts on dense star cluster formation and evolution in New York City}{}{}{}
+\cventry{April 2026}{Expert grant panel reviewer: National Science Foundation (NSF) Grants}{\newline Invited to provide expert reviews on an NSF-AAG grant panel.}{}{}{}
+\cventry{July 2021 -- present}{Reviewer: ApJ, ApJL, MNRAS, J. Comput. Phys., JOAA, Open Journal of Astrophysics}{}{}{}{}
+\cventry{Feb 2022 -- May 2023}{Chair, Seminars Committee, RSAA}{\newline Heading the seminars team; responsible for organising, hosting and inviting speakers for colloquia}{}{}{}
+\cventry{Sept 2020 -- Feb 2022}{Member of Seminars Committee, RSAA}{\newline Hosted >30 external colloquia and seminars at RSAA}{}{}{}
 
 \section{Students Mentored}
-\textbf{\textit{2 PhD students + 3 undergraduate students}} \newline
+\textbf{\textit{2 PhD students + 2 master's + 2 undergraduate students}} \newline
 
-\cventry{Jan 2025 -- May 2025}{Thummim Mekuria, CCA Predoc Project (PhD student at UC Santa Cruz)}{\newline Project title: The Feedback-Matter Interplay in High-z  Compact Starbursts}{}{}{}
+\cventry{Jan 2025 -- May 2025}{Thummim Mekuria, CCA Predoctoral Project (PhD student at UC Santa Cruz)}{\newline Project title: The Feedback-Matter Interplay in High-z  Compact Starbursts}{}{}{}
 
-\cventry{Jan 2025 -- present}{Avi Chen, PhD student, Rutgers University (co-supervising)}{\newline Project title: \href{https://ui.adsabs.harvard.edu/abs/2026arXiv260400197C/abstract}{Role of Radiative Feedback in Population III Star Formation}}{}{}{}
+\cventry{Jan 2025 -- present}{Avi Chen, PhD student, Rutgers University}{\newline Project title: \href{https://iopscience.iop.org/article/10.3847/1538-4357/ae969f}{Role of Radiative Feedback in Population III Star Formation}}{}{}{}
 
-\cventry{Jan 2025 -- present}{Frances Mathias, Undergraduate, Rutgers University}{\newline Project title: Stochasticity in Stellar Population Synthesis}{}{}{}
+\cventry{Nov 2024 -- Nov 2025}{Lisanne van Veenen, Master's student at Leiden University}{\newline Project title: \href{https://www.aanda.org/articles/aa/full_html/2026/04/aa58114-25/aa58114-25.html}{Radiation magnetohydrodynamics simulations of Population III star formation during the epoch of reionization}}{}{}{}
 
-\cventry{March 2024 -- present}{Dhavala Sai Srinivas, BS-MS student at IISER-Kolkata}{\newline Project title: The escape fraction of ionising photons in magnetized turbulent media}{}{}{}
+\cventry{March 2024 -- March 2025}{Dhavala Sai Srinivas, Master's student at IISER-Kolkata}{\newline Project title: The escape fraction of ionising photons in magnetized turbulent media}{}{}{}
 
-\cventry{Jan -- March 2022}{Hank Hua, undergraduate student at ANU (co-supervised)}{\newline Project title: Effects of spiral arms on the Two Point Correlation Function}{}{}{}
+\cventry{Jan 2025-- March 2025}{Frances Mathias, Undergraduate, Rutgers University}{\newline Project title: Stochasticity in Stellar Population Synthesis}{}{}{}
+
+\cventry{Jan 2022 -- March 2022}{Hank Hua, undergraduate student at ANU (co-supervised)}{\newline Project title: Effects of spiral arms on the Two Point Correlation Function}{}{}{}
+
 
 \section{Teaching Experience}
+
+\cventry{Oct 2026}{Guest Lecture, Physics 345 -- Introduction to Computational Astrophysics}{\newline Guest lecture on high performance computing for graduate students}{}{}{}
 
 \cventry{Sep 2025}{Guest Lecture, Physics 610 -- Interstellar Matter}{\newline Guest lectures on ISM physics for graduate students}{}{}{}
 
@@ -94,42 +104,45 @@ $$\\$$
 
 \cventry{Oct 2022}{Guest Lecture, ASTR 4012 -- Astrophysical Gas Dynamics}{\newline Guest Lecture on The Physics of Radiation Hydrodynamics for graduate students}{}{}{}
 
-\cventry{Feb 2022 -- present}{Teaching Assistant, ASTR 1003 -- Astronomy \& Space}{\newline Respond to undergraduate student queries on the course forum and assist in tutorials}{}{}{}
+\cventry{Feb 2022 -- May 2023}{Teaching Assistant, ASTR 1003 -- Astronomy \& Space}{\newline Respond to undergraduate student queries on the course forum and assist in tutorials}{}{}{}
 
-\cventry{Aug -- Dec 2018}{Teaching Assistant, PHY 1002 -- Introduction to Engineering Electromagnetics}{\newline Duties involved one tutorial session per week and assistance in preparing tutorials for this undergraduate course}{}{}{}
-\cventry{Jan -- May 2018}{Teaching Assistant, PHY 304 -- Computational Physics}{\newline Duties involved one laboratory session per week, assisting students in implementing numerical methods and recipes taught in theory classes.}{}{}{}
-\cventry{March 2022 -- present}{Tutor, Canberra Tutors -- High School Mathematics and Physics}{\newline Conduct private tutorial sessions for grade 11 \& 12 students for their physics and mathematics coursework..}{}{}{}
-
-\section{Synergistic Activities}
-\cventry{April 2026}{Expert reviewer: National Science Foundation (NSF) Grants}{}{}{}{}
-\cventry{July 2021 -- present}{Reviewer: ApJ, ApJL, MNRAS, J. Comput. Phys., JOAA, Open Journal of Astrophysics}{}{}{}{}
+\section{Outreach Activities}
+\cventry{Sep 2026}{Public talk, \emph{Mortal Matters, Greenwood Public Cemetery}}{\newline Delivered an invited public talk on "All Ends are Beginnings" at the \href{https://www.green-wood.com/event/mortal-matters/}{"Mortal Matters"} event held at the Greenwood Public Cemetery.}{}{}{}
+\cventry{Aug 2026}{Public talk, \emph{Astronomy on Tap (AoT), Bengaluru}}{\newline Delivered an invited AoT public outreach talk on "Survival of the Fittest: Lessons from Ancient Stellar Nurseries" that obtained \href{https://www.instagram.com/p/Db-BSjjNAPz/?stkn=MTNxMWVmd3hsbnhxdg==}{press coverage}.}{}{}{}
 \cventry{Sep 2024 -- May 2025}{STEM professional volunteer: Letters to a Pre-Scientist}{\newline Program to exchange letters with middle school students to broaden exposure to the day-to-day of STEM researchers.}{}{}{}
-\cventry{Feb 2022 -- present}{Chair, Seminars Commitee, RSAA}{\newline Heading the seminars team; responsible for organising, hosting and inviting speakers for colloquia}{}{}{}
-\cventry{Sept 2020 -- Feb 2022}{Member of Seminars Commitee, RSAA}{\newline Hosted >30 external colloquia and seminars at RSAA}{}{}{}
+\cventry{July 2021 -- Dec 2022}{Hosting public nights, Mount Stromlo Observatory}{\newline Hosting telescope viewing nights at the observatory for public school students and adults as part of the outreach team at ANU.}{}{}{}
 
-\section{Proposals}
-\cventry{April 2026}{Co-Investigator, \normalfont JWST-GO-10202
-: MIRAGE: MIRI 
-Investigation of Red and Ancient Galaxies in the Early Universe}{}{}{}{}
-\cventry{July 2025}{Co-Investigator, \normalfont ALMA Cycle 12 Proposal 2025.1.00874.S: Feeding and Feedback: Connecting Molecular Gas to the Young Stellar Clusters of M83}{}{}{}{}
+% \section{Proposals}
+% \cventry{April 2026}{Co-Investigator, \normalfont JWST-GO-10202
+% : MIRAGE: MIRI 
+% Investigation of Red and Ancient Galaxies in the Early Universe}{}{}{}{}
+% \cventry{July 2025}{Co-Investigator, \normalfont ALMA Cycle 12 Proposal 2025.1.00874.S: Feeding and Feedback: Connecting Molecular Gas to the Young Stellar Clusters of M83}{}{}{}{}
 
-\section{Seminars and Conference Talks}
-\subsection{Invited and Prize Talks}
-\cventry{May 2026}{Astrophysics Seminar: American Museum of Natural History (AMNH)}{}{}{}{}
-\cventry{Jan 2026}{The growth of galaxies in the early Universe XI,  Sesto, Italy}{}{}{}{}
-\cventry{Dec 2025}{Theoretical Astrophysics Seminar: UC Berkeley}{}{}{}{}
-\cventry{July 2025}{Review Talk at the Numerical Recipes Lorentz Center, Leiden University}{}{}{}{}
-\cventry{June 2025}{Seminar: Raman Research Institute (RRI), Bengaluru}{}{}{}{}
-\cventry{March 2024}{ISM Salon, CCA Flatiron Institute}{}{}{}{}
+\section{Invited and Prize Talks}
+
+\cventry{April 2027}{Deepdish-Baguette: Stars, Black Holes, and Feedback From Cosmic Dawn to Cosmic Noon}{}{}{}{}
+\cventry{Nov 2026}{Department of Physics Colloquium: University of Texas, Dallas}{}{}{}{}
+\cventry{Sep 2026}{Colloquium: Tata Institute of Fundamental Research, Mumbai}{}{}{}{}
+\cventry{Sep 2026}{Seminar: Raman Research Institute (RRI), Bengaluru}{}{}{}{}
+\cventry{May 2026}{Astrophysics Seminar: American Museum of Natural History}{}{}{}{}
+\cventry{April 2026}{Star Formation/ISM Rendezvous: Princeton University}{}{}{}{}
+\cventry{Jan 2026}{The growth of galaxies in the early Universe XI, Sesto, Italy}{}{}{}{}
+\cventry{Dec 2025}{Theoretical Astrophysics Seminar, UC Berkeley}{}{}{}{}
+\cventry{Aug 2025}{Santa Cruz Galaxy Workshop, UC Santa Cruz}{}{}{}{}
+\cventry{July 2025}{Review Talk, Numerical Recipes in Star Formation, Lorentz Center, Leiden University}{}{}{}{}
 \cventry{Aug 2024}{Cosmic Dawn Revealed by JWST, Kavli Institute of Theoretical Physics}{}{}{}{}
-\cventry{June 2024}{Charlene Heisler Prize Talk: ASA Annual Meeting, Online}{}{}{}{}
+\cventry{June 2024}{Charlene Heisler Prize Talk, ASA Annual Meeting}{}{}{}{}
+\cventry{March 2024}{ISM Salon, CCA Flatiron Institute}{}{}{}{}
 \cventry{March 2024}{Radiation Transport in Astrophysics, Heidelberg}{}{}{}{}
-\cventry{July 2023}{Colloquium: Tata Institute of Fundamental Research, Mumbai}{}{}{}{}
 \cventry{July 2023}{Seminar: Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune}{}{}{}{}
 \cventry{June 2022}{Seminar: Centre de Recherche Astrophysique de Lyon (CRAL)}{}{}{}{}
 \cventry{Dec. 2021}{Colloquium: Indian Institute of Astrophysics, Bangalore}{}{}{}{}
+\cventry{March 2020}{Modelling High-Mass Stellar Feedback Workshop, T\"{u}bingen, Germany}{}{}{}{}
 
-\subsection{Contributed Talks}
+
+\section{Contributed Talks (\emph{selected})}
+\cventry{July 2026}{Cake Talk: Cosmic Dawn Center, Copenhagen}{}{}{}{}
+\cventry{June 2026}{EAS Annual Meeting (Special Session 5 and 7), Lausanne, Switzerland}{}{}{}{}
 \cventry{March 2026}{Towards the Full Bloom of First Star, Galaxy,
 and Black Hole Formation Exploration, Tokyo, Japan}{}{}{}{}
 \cventry{April 2025}{Escape of Lyman radiation from galactic labyrinths, Crete, Greece}{}{}{}{}
@@ -138,30 +151,18 @@ and Black Hole Formation Exploration, Tokyo, Japan}{}{}{}{}
 
 
 \cventry{Feb. 2024}{Building Galaxies From Scratch, Vienna}{}{}{}{}
-
-
 \cventry{Nov. 2022}{CIERA Theory Seminar, Northwestern University}{}{}{}{}
 \cventry{Nov. 2022}{CCAPP Seminar, Ohio State University}{}{}{}{}
-\cventry{Nov. 2022}{Lars Hernquist Group Meeting, Centre for Astrophysics, Harvard}{}{}{}{}
-\cventry{Nov. 2022}{RandoAstro Seminar, Canadian Institute of Theoretical Astrophysics}{}{}{}{}
-\cventry{Oct. 2022}{Coffee Seminar, Institute of Advanced Studies}{}{}{}{}
-\cventry{Oct. 2022}{Galread Seminar, Princeton University}{}{}{}{}
+\cventry{Oct. 2022}{Coffee Seminar, Institute for Advanced Study}{}{}{}{}
 \cventry{Oct. 2022}{Cosmology Seminar, MPA Garching}{}{}{}{}
-\cventry{Aug. 2022}{Contributed Talk - Star Formation in Different Environments, Quy Nhon, Vietnam}{}{}{}{}
-\cventry{July 2022}{Contributed Talk - A Holistic View of Stellar Feedback and Galaxy Evolution, Ascona}{}{}{}{}
-\cventry{July 2022}{Planet and Star Formation (PSF) Seminar - Max-Planck-Institut for Astronomy, Heidelberg}{}{}{}{}
-
-\cventry{June 2022}{Star Formation Seminar - CEA, Saclay}{}{}{}{}
-\cventry{June 2022}{Contributed Talk - NBIA Workshop on Radiation Transfer in Astrophysics, Copenhagen}{}{}{}{}
-\cventry{Nov. 2021}{Contributed Talk, IAU Symposium 362 - The Predictive Power of Computational Astrophysics}{}{}{}{}
-\cventry{May 2021}{Contributed Talk, ISM 2021, Beirut - Structure, Characteristic Scales, and Star Formation}{}{}{}{}
-\cventry{Feb. 2021}{Contributed Talk, Australian National Insitute for Theoretical Astrophysics science workshop}{}{}{}{}
-\cventry{Sept. 2020}{Contributed Talk, Annual meeting of the Astronomische Gesellschaft, Germany}{}{}{}{}
-\cventry{March 2020}{Invited Talk, Modelling High-Mass Stellar Feedback Workshop, T\"{u}bingen, Germany}{}{}{}{}
-\cventry{Jan. 2020}{Australian National Insitute for Theoretical Astrophysics science workshop}{}{}{}{}
+\cventry{Aug. 2022}{Star Formation in Different Environments, Quy Nhon, Vietnam}{}{}{}{}
+\cventry{July 2022}{A Holistic View of Stellar Feedback and Galaxy Evolution, Ascona}{}{}{}{}
+\cventry{July 2022}{Planet and Star Formation (PSF) Seminar - MPIA, Heidelberg}{}{}{}{}
+\cventry{June 2022}{NBIA Workshop on Radiation Transfer in Astrophysics, Copenhagen}{}{}{}{}
+\cventry{Nov. 2021}{IAU Symposium 362 - The Predictive Power of Computational Astrophysics}{}{}{}{}
 
 
-\section{Selected Publications}
+\section{List of Publications}
 \input{CV_Tex/publications}
 
 
@@ -185,11 +186,5 @@ and Black Hole Formation Exploration, Tokyo, Japan}{}{}{}{}
 % \cventry{September 2020}{Contributed Talk, Annual meeting of the Astronomische Gesellschaft, Germany}{\newline Title: Compressive Turbulence Driven by Ionising Radiation}{}{}{}
 % \cventry{March 2020}{Invited Talk, Modelling High-Mass Stellar Feedback Workshop, T\"{u}bingen, Germany}{\newline Title: Turbulence and Triggered Star Formation in Star Clusters}{}{}{}
 % \cventry{January 2020}{Australian National Insitute for Theoretical Astrophysics science workshop}{\newline Title: Turbulence Driving Mode of Expanding HII regions}{}{}{}
-
-\section{Relevant Skills}
-\cventry{}{Languages:}{}{English, Malayalam, Tamil, Hindi, Sanskrit}{}{}
-\cventry{}{Programming Experience:}{}{C, C++, Fortran, Python, Mathematica, Bash}{}{}
-\cventry{}{Codes/Softwares:}{}{\texttt{FLASH}, \texttt{PLUTO}, \texttt{PETSc}, \texttt{Hypre},  \texttt{Athena}, \texttt{yt}, \texttt{CUDA}}{}{}
-\cventry{}{Voluntary Training:}{}{Mental Health First Aid, Understanding and Responding to Sexual Violence}{}{}
 
 \end{document}
